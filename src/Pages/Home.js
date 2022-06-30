@@ -1,11 +1,18 @@
-import React from 'react'
+import './Home.css'
 import Header from '../Header/Header'
+import Post from '../Posts/post'
+import SideBar from '../Sidebar/SideBar'
+
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className='home'>
+        <Post />
+        <SideBar />
+      </div>
+    </>
   )
 }
 
